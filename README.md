@@ -1,2 +1,5 @@
 # Global-root finding algorithm
  Global One-dimensional Root-finding Algorithm for Derivable and Continuous Functions
+
+## Abstract
+Efficient and robust root finding is a core problem of chemical and process engineering solutions. Thermodynamics, nonlinear systems, finite difference methods for partial differential equations, and optimization are just some examples in which root finding is fundamental. In this work, an algorithm that can be integrated with any local root-finding method is proposed to solve the problem of finding robustly and efficiently all the roots of an objective function in a domain. The method requires the function to be continuous up until the second-order derivative and it is here applied for the one-dimensional case. With the definition of a proper mesh, the first derivative is investigated to find the sub-domains that contain the zeros of the objective function. The study of the derivative guarantees to find those zeros that cannot be identified using only Bolzano’s existence criterion.
